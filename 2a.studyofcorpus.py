@@ -1,6 +1,6 @@
 import nltk
 from nltk.corpus import brown
-nltk.download('')
+#nltk.download('brown')
 print ('File ids of brown corpus\n',brown.fileids())
 
 '''Let’s pick out the first of these texts — Emma by Jane Austen — and give it a short name, emma, then find out how many words it contains:'''
